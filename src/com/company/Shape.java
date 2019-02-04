@@ -10,6 +10,18 @@ public class Shape {
         this.filled = filled;
     }
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "color='" + color + '\'' +
+                ", filled=" + filled +
+                '}';
+    }
+
+    public void printShape() {
+        System.out.println("The shape is " + color + " and it is " + filled + " that it is filled");
+    }
+
     public String getColor() {
         return color;
     }
@@ -25,4 +37,5 @@ public class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
+
 }
