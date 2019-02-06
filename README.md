@@ -1,0 +1,2 @@
+## Inherit Shape
+Inheritance practice
